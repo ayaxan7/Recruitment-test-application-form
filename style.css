@@ -1,0 +1,64 @@
+textarea{
+background-color: whitesmoke;
+border-radius: 10px;
+} 
+body {
+  color: yellow;
+  background-color:black;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcT5PpWnR7LvIeS6HiqWiCLuoUeF9U59C1Z2UO3QFPY_NCe5GGqNTrwIvNtbsKnMU4cswJdIK0aBtpdEkmAjd6M');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2 {
+    color:white;
+    text-align: center;
+    font-style: bold;
+    display:block;
+}
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(249, 249, 18);
+    border-radius: 8px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px; /* Adjust the padding as needed */
+    color: #555;
+}
+input[type="text"],
+select,
+input[type="contact"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    transition: border-color 0.3s ease;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.button{
+    color: red;
+    border-radius: 10px;
+}
