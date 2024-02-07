@@ -12,8 +12,8 @@ The repo contains the following files:
 
 - **index.html** - The main HTML page with the application/registration form  
 - **style.css** - Stylesheet providing styling for index.html page
-- **style1.css** - Additional stylesheet, likely used for a separate page
 - **thnq.html** - A simple HTML thank you page shown after form submission
+- **style1.css** - Additional stylesheet, used for thnq.html page
 
 ## Functionality
 
