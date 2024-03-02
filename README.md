@@ -1,5 +1,3 @@
-Got it, thanks for clarifying. Here is an updated README with that note:
-
 # Ace Society Recruitment Webpage
 
 This repo contains a sample code for a webpage to allow students to apply for recruitment in the Ace Society clubs.
