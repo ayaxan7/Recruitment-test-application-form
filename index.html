@@ -9,15 +9,19 @@
 </head>
 
 <body>
+    
     <h2> Fill your details to take the recruitment test of The Ace Society!!! </h2>
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img
-        width="200" src="Screenshot 2024-02-03 214503.png"="Ace Society Logo">
-    <form action="post">
+        class="logo" width="200" src="Screenshot 2024-02-03 214503.png"="Ace Society Logo">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="YOUR-API-KEY">
 
 
         <div>
             <label for="Name"> Enter your full name:</label>
-            <input type="text" required autofocus name="Name" placeholder="Eg:-Rahul Jain">
+            <input type="text" required autofocus name="Name" placeholder="Eg:-John Doe">
         </div>
         <hr>
         <div>
@@ -40,7 +44,7 @@
         <hr>
         <div>
             <br>
-            <label for="gender" >Select your gender:- &nbsp</label>
+            <label for="gender">Select your gender:- &nbsp</label>
             <input type="radio" required id="male" name="gender" value="male">
             <label for="male">Male</label>
             <input type="radio" required id="female" name="gender" value="female">
@@ -51,8 +55,7 @@
         <hr>
         <div>
             <br>
-            <label for="myDropdown" >Select your semester:</label>
-
+            <label for="myDropdown">Select your semester:</label>
             <select id="myDropdown" required name="Semester">
                 <option value="">Choose</option>
                 <option value="1st sem">Ist</option>
@@ -89,22 +92,22 @@
             </ul>
         </div>
         <div>
-            <label for="resume" >Tell us something about yourself (max 150 words):</label>
+            <label for="resume">Tell us something about yourself (max 150 words):</label>
             <textarea name="comment" required rows="10" cols="79"></textarea>
         </div>
         <pre>
-        <div>
-       
+            <div>
+        
 
-                                    <button type="submit" style="font-size: 14px" class="button" formaction="thnq.html">Submit</button>
-        </pre>
+                                        <button type="submit" style="font-size: 14px" class="button">Submit</button>
+            </pre>
         </div>
         </pre>
 
 
 
     </form>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
